@@ -1,0 +1,155 @@
+@media screen and  ( max-width: 1300px) {
+    .left{
+        display: none;
+    }
+    .right .hero-right {
+        width: 100%;
+    }
+    .brgr .l1{
+       display: block;
+        
+    }
+    .brgr{
+      display: block;
+    }
+  }
+
+  @media screen and  ( max-width: 1050px) {
+    .projects{
+        margin-top: 7%;
+        padding-bottom: 9%;
+        height: 100%;
+        border: 1ppx solid red;
+    }
+    .projects2{
+        height: 50vh;
+    }
+  }
+
+  @media screen and  ( max-width: 730px) {
+    .right .bg-items h1 {
+      font-size: 3rem;
+      margin-bottom: 3%;
+      
+    }
+    .play-t {
+      font-size: 1.5rem;
+      color: chartreuse;
+      margin-bottom: 7%;
+    }
+    #app{
+      border-right: 2px solid gold;
+      /* display: none; */
+      font-size: 1.5rem;
+    }
+    .right .hero-right{
+      overflow: hidden;
+    }
+    .letter {
+        font-size: 2.5rem;
+    }
+    .contant-about img {
+        width: 80%;
+    }
+    .contant-about {
+        /* text-align: center; */
+        flex-direction: column;
+    }
+    .contant-about p {
+        font-size: large;
+    }
+    .skills{gap: 10px;}
+    .circle{
+        width: 145px;
+        height: 145px;
+    }
+    .contant-about .page-in-right {
+        width: 95%;
+    }
+    .projects{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .row {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .projects2{
+    flex-direction: column;
+    height: fit-content;
+  }
+  .left-pic-p{
+    width: 90%;
+
+  }
+  .right-page-p {
+    width: 90%;
+  }
+ 
+  .container-r{
+    /* border: 2px solid red; */
+    height: fit-content;
+    margin-bottom: 10%;
+    
+  }
+ .aboutt .abb{
+    margin-bottom: 15%;
+    /* border: 1px solid red; */
+
+  }
+  .about .skl{
+    /* border: 1px solid red; */
+    margin-bottom: 15%;
+  }
+  .ab{
+    margin-bottom: 6%;
+  }
+  .abW{
+    padding-top: 0%;
+    padding-bottom: 13%;
+    /* border: 1px solid rgb(12, 249, 79); */
+  }
+  .tech-items1 {
+    width: 150px;
+  }
+  .tech-items1 :nth-child(1){
+    font-size: 30px;
+  }
+  .tech-items1 :nth-child(2){
+    font-size: 12px;
+   margin-left: 5px;
+  }
+  .radial-bars{
+    width: 100%;
+    flex-wrap: wrap;
+   /* background: #000; */
+   /* border: 2px solid red; */
+    }
+    .radial-bars .radial-bar{
+width: 150px;
+  /* border: 2px solid aqua; */
+    }
+  .radial-bars .radial-bar svg {
+    display: flex;
+   flex-wrap: wrap;
+   margin: 4%;
+  }
+
+  .contactt {
+    flex-direction: column;
+  }
+
+  .adress-c p {
+    font-size: unset;
+  }
+  .map-c {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+  }
+  .map-c iframe{
+    border: unset;
+    width: 100%;
+    height: 100%;
+  }
+}
